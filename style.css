@@ -21,7 +21,7 @@
  
   /* --- Layout --- */
   --max-width:       1520px;         /* content column width */
-  --nav-height:      54px;
+  --nav-height:      56px;
 }
 
 
@@ -116,7 +116,7 @@ main {
 
 .home-logo {
   margin-left: auto;
-  flex-shrink: 0;
+  flex-shrink: 00;
 }
 
 .home-photo img {
