@@ -8,10 +8,10 @@
   --color-muted:     #e5eef7;       /* secondary text (e.g. journal names) */
   --color-link:      #ffca40;       /* hyperlink color */
   --color-link-hover: #ffca40;       /* hyperlink hover color */
-  --color-nav-bg:    #e5eef7;       /* navigation bar background */
-  --color-nav-link:  #0057ac;       /* navigation text buttons */
+  --color-nav-bg:    #0057ac;       /* navigation bar background */
+  --color-nav-link:  #ffca40;       /* navigation text buttons */
   --color-border:    #e5eef7;       /* subtle divider lines */
-  --color-highlight: #0b113a;       /* Highlight color */
+  --color-highlight: #030406;       /* Highlight color */
 
   /* --- Typography --- */
   --font-body:       'Courier New', Courier, monospace;
@@ -21,7 +21,7 @@
  
   /* --- Layout --- */
   --max-width:       1520px;         /* content column width */
-  --nav-height:      56px;
+  --nav-height:      10px;
 }
 
 
@@ -51,13 +51,14 @@ nav {
   top: 0;
   z-index: 100;
   background: var(--color-nav-bg);
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 0px solid var(--color-border);
   height: var(--nav-height);
   display: flex;
   align-items: center;
 }
 
 .nav-inner {
+  margin-top: 40px;
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 2rem;
@@ -68,6 +69,7 @@ nav {
 }
 
 .nav-name {
+  margin-top: 20px;
   font-family: var(--font-nav);
   font-weight: 600;
   font-size: 0.95rem;
@@ -77,6 +79,7 @@ nav {
 }
 
 .nav-links {
+  margin-top: 40px;
   display: flex;
   gap: 1.8rem;
   list-style: none;
