@@ -293,7 +293,7 @@ footer {
   padding: 1rem 2rem 2rem;
   font-family: var(--font-nav);
   font-size: 0.78rem;
-  color: var(--color-border);
+  color: var(--color-text);
 }
 
 /* ── Links (generic) ────────────────────────────────────── */
