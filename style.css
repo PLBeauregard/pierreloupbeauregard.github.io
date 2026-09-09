@@ -1,15 +1,16 @@
+
 /* ============================================================
    EASY CUSTOMIZATION — change anything in this section
    ============================================================ */
 :root {  
   /* --- Colors --- */
-  --color-bg:        #0057ac;       /* page background */
-  --color-text:      #e5eef7;       /* main text */
-  --color-muted:     #e5eef7;       /* secondary text (e.g. journal names) */
-  --color-link:      #ffca40;       /* hyperlink color */
-  --color-link-hover: #ffca40;       /* hyperlink hover color */
-  --color-nav-bg:    #0057ac;       /* navigation bar background */
-  --color-nav-link:  #ffca40;       /* navigation text buttons */
+  --color-bg:        #e5eef7;      /* page background */
+  --color-text:      #0057ac;       /* main text */
+  --color-muted:     #0057ac;       /* secondary text (e.g. journal names) */
+  --color-link:      #ff8000;       /* hyperlink color */
+  --color-link-hover: #ff8000;       /* hyperlink hover color */
+  --color-nav-bg:    #e5eef7;       /* navigation bar background */
+  --color-nav-link:  #ff8000;       /* navigation text buttons */
   --color-border:    #e5eef7;       /* subtle divider lines */
   --color-highlight: #030406;       /* Highlight color */
 
@@ -78,7 +79,7 @@ nav {
 }
 
 .nav-links {
-  margin-top: 40px;
+  margin-top: 75px;
   display: flex;
   gap: 1.8rem;
   list-style: none;
@@ -310,3 +311,4 @@ a:hover { color: var(--color-link-hover); }
   main { padding: 2rem 1.2rem 4rem; }
   .nav-inner { padding: 0 1.2rem; }
 }
+
