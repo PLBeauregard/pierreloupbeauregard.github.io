@@ -124,8 +124,9 @@ main {
 }
 
 .home-photo img {
-  width: 350px;
+  width: 250px;
   border-radius: 4px;
+  margin-top: 1rem;
   display: block;
 }
 
@@ -222,6 +223,7 @@ section h2 {
   color: var(--color-muted);
   line-height: 1;
   margin-bottom: 0.4rem;
+  margin-left: 1rem;
 }
 
 .paper-meta a {
@@ -240,6 +242,7 @@ section h2 {
   line-height: 1;
   color: var(--color-muted);
   margin-top: 0rem;
+  margin-left: 1rem;
 }
 
 .paper-coverage a {
