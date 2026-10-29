@@ -17,7 +17,7 @@
   /* --- Typography --- */
   --font-body:       'Courier New', Courier, monospace;
   --font-nav:        'Courier New', Courier, monospace;
-  --font-size-base:  20px;          /* base font size — scale everything here */
+  --font-size-base:  20px;          /* base font size — scale everything here */ 
   --line-height:     1.75;
  
   /* --- Layout --- */
